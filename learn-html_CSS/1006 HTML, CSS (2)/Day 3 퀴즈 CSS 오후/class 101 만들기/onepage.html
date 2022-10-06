@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+
+        .sido_blue {
+            color: blue;
+        }
+        
+        .sido_middle {
+            padding: 50px;
+            background-color: blue;
+            color: white;
+        }
+
+        .card{
+            margin: 50px;
+            margin: auto;
+        }
+
+        .sido_button {
+            left: 100px;
+        }
+
+        .sido_card-group {
+            border: 1px;
+            border-color: silver;
+            padding: 10px;
+            align-self: auto;
+            ;
+        }
+
+        .sido_fixed {
+            position: fixed;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div><br><br><br></div>
+    <div class="containor main">
+<!-- 네비게이션 바 -->
+
+
+<!-- 메인페이지 두개로 나뉜 것 -->
+        <div class="row">
+            <div class="col-md-6 text-md-center pr-md-5 order-1 mt-1">
+                <h1 class="sido_blue">Collective College</h1>
+            </div>
+            
+            <div class="col-md-6 text-md-left pr-md-5 order-2">
+                <p>같이 만들고, 같이 배우며, 같이 개선합니다<br>배워서 우리에게 줍니다.</p>
+                
+                <p><strong>정보의 불균형</strong>과 <strong>교육의 불평등</strong>을 해결하기 위해<br>
+                Collective College는 협력을 통해 지식을 만들고 참여를 통해 개선하고 결과물을 나눕니다. 소수에게 지식이 편중되는 문제를 해결하려고 합니다.<br><br>
+
+                <strong>협업을 통해 지식과정을 만들고 공유합니다.</strong></p>
+            </div>
+        </div>
+<!-- 파란줄 -->
+        <div class="sido_middle">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>🖊️ 공유지</h4>
+                    <p>스터디, 강의 제품 만들고 싶은 주제를 선정하고 최소한의 공유지를 만듭니다.</p>
+                </div>
+            
+                <div class="col-md-4">
+                    <h4>🤝 참여, 협업을 통한 개선</h4>
+                    <p>누구나 참여 가능한 플랫폼, 협업 도구를 적극적으로 사용합니다. 프로토타입을 개선합니다.</p>
+                    
+                </div>
+
+                <div class="col-md-4">
+                    <h4>👭 공유</h4>
+                    <p>만들어진 제품의 소스와 과정 또한 공개합니다.<br>
+                        오픈소스, 오픈하드웨어, 오픈프로세스를 지향합니다. 공유와 협업을 통해 정보의 불평등을 해결할 수 있습니다.</p>
+                </div>
+            
+            </div>
+        </div>
+        <div><br><br></div>
+<!-- 더보기 3개 -->
+        <div>
+            <div class="row">
+                <div class="card col-md-4" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Web</h5>
+                    <p class="card-text">
+                        웹을 만들 때 필요한 지식을 배웁니다.
+                        프런트엔드, 백엔드, 인프라를 다루는 과정입니다.</p>
+                    <button type="button" class="btn btn-outline-primary">더 보기</button>
+                    </div>
+                </div>
+                <div class="card col-md-4" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">BlockChain</h5>
+                    <p class="card-text">
+                        블록체인 개념, 아키텍쳐 설계, Dapp만들기를 배우는 과정입니다.</p>
+                    <button type="button" class="btn btn-outline-primary sido_button">더 보기</button>
+                    </div>
+                </div>
+                <div class="card col-md-4" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">인공지능과 데이터 분석</h5>
+                    <p class="card-text">
+                        데이터 분석과 인공지능에 필요한 지식을 배우는 과정입니다.</p>
+                    <button type="button" class="btn btn-outline-primary">더 보기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><br><br></div>
+<!-- 사진 4개 + 설명 -->
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="card-title">검정고시 문제풀이</h5>
+                <p class="card-text">
+                    검정고시 기출문제를 풀어볼 수 있는 어플리케이션입니다.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="http://placeimg.com/200/200/any">
+            </div>
+            
+            <div class="col-md-3">
+                <h5 class="card-title">중고핸드폰을 이용한 서버 구축</h5>
+                <p class="card-text">
+                    중고 핸드폰을 활용해서 클라우드 서비스를 구축하는 프로젝트입니다. 현재 진행중에 있습니다.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="http://placeimg.com/200/200/any">
+            </div>
+            
+            <div class="col-md-3">
+                <h5 class="card-title">비영리단체를 위한 오픈소스 웹 사이트 만들기</h5>
+                <p class="card-text">
+                    비영리단체에 필요한 웹 사이트를 오픈소스로 개발하여 개발비용과 유지비용을 낮추고 후에 데이터 분석을 위한 웹 사이트 프로그램을 만드는 프로젝트입니다.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="http://placeimg.com/200/200/any">
+            </div>
+            
+            <div class="col-md-3">
+                <h5 class="card-title">음성 인식 인공지능</h5>
+                <p class="card-text">
+                    한글 음성을 인식하는 인공지능 엔진을 개발합니다. open source, open data를 추구합니다. 현재 연구중에 있습니다.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="http://placeimg.com/200/200/any">
+            </div>
+        </div>
+        <div><br><br></div>
+<!-- 사진 6장 -->
+        <div class="row">
+            <div class="card-group ">
+                <div class="card col-md-4 sido_card-group">
+                    <img src="http://placeimg.com/200/200/any">
+                </div>
+                <div class="card col-md-4 sido_card-group">
+                    <img src="http://placeimg.com/200/200/any">
+                </div>
+                <div class="card col-md-4 sido_card-group">
+                    <img src="http://placeimg.com/200/200/any">
+                </div>
+            </div></div>
+            <div class="row">
+                <div class="card-group ">
+                    <div class="card col-md-4 sido_card-group">
+                        <img src="http://placeimg.com/200/200/any">
+                    </div>
+                    <div class="card col-md-4 sido_card-group">
+                        <img src="http://placeimg.com/200/200/any">
+                    </div>
+                    <div class="card col-md-4 sido_card-group">
+                        <img src="http://placeimg.com/200/200/any">
+                    </div>
+                </div></div>
+        <div><br><br></div>
+<!-- 이메일 -->
+        <div>
+            <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">이메일</label>
+                  <div class="col-sm-10">
+                    <input type="Email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">이름</label>
+                  <div class="col-sm-10">
+                    <input type="Enter Name" class="form-control" placeholder="Enter Name">
+                  </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="문의 사항을 적어주세요"></textarea>
+                </div>
+                <p><h6>이 폼은 예시를 위해 만들어서 동작하지 않습니다.</h6></p>
+                <input class="btn btn-primary" type="submit" value="제출하기">
+            </form>
+        </div>
+<!-- 마지막 -->
+        <div>
+            <p><br><br><br></p>
+            <p style="background-color:silver;"><br><br><br><br>
+            It does not made by Collective College <br>
+            Written by byeonguk 😂<br><br><br></p>
+        </div>
+    </div>
+</body>
+</html>
