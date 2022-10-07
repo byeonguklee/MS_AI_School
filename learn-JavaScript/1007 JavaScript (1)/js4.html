@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>3</p>
+    <script>
+        function a(n){
+            return n % 2 == 0;
+        }
+
+        let pElements = document.getElementsByTagName('p')
+        let result = a(parseInt(pElements[0].innerText))
+        if (result) {
+            pElements[0].style.color = "red";
+        } else {
+            pElements[0].style.color = "green";
+        }
+        
+    </script>
+</body>
+</html>
