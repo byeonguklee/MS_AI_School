@@ -22,12 +22,3 @@
 
     [Computer Vision 설명서 - 빠른 시작, 자습서, API 참조 - Azure Cognitive Services](https://learn.microsoft.com/ko-kr/azure/cognitive-services/computer-vision/)
 
-    - Computer Vision
-
-        [Google Colaboratory](https://colab.research.google.com/drive/1wPRSzvO2XMJ_mrMgzzCUlA3o3biEU_E8?usp=sharing)
-
-    - Face API
-
-        [Google Colaboratory](https://colab.research.google.com/drive/1RO_5EXkWLR5bT-Z7xMcNo9RpAgph67ag?usp=sharing)
-
-
