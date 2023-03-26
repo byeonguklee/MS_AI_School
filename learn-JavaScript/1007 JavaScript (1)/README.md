@@ -107,7 +107,8 @@
                         test() ⇒ 호출
                         
             - 조건문
-                - ```if ( num < 20) {
+                - ```
+                if ( num < 20) {
                     
                     명령문 …
                     
@@ -118,7 +119,8 @@
                     - if 예약어, (), {} 세가지로 구성
 
 
-                - ```if ( num < 20) {
+                - ```
+                if ( num < 20) {
                     
                     명령문 …
                     
@@ -133,7 +135,8 @@
                 - 조건문 || 조건문 : or
                 - if … else if … else if … else
             - 반복문
-                - ```for ( let i = 0; i < 100 ; i++ ) {
+                - ```
+                for ( let i = 0; i < 100 ; i++ ) {
                     
                     console.log(i);
                     
@@ -149,7 +152,8 @@
                     - i < 100; // 조건체크 결과 false면 실행 종료
     - JS 기초 2
         - HTML 안에서 script 태그 사용
-            - ```<body>
+            - ```
+            <body>
                 
                     <script>
                 
@@ -161,7 +165,8 @@
                 ```
                 
         - 파일로 분리시켜서 사용하기
-            - ```<body>
+            - ```
+            <body>
                 
                      <script src = “script.js”></script>
                 
@@ -193,7 +198,8 @@
             - luElement.remove()
         - 이벤트 다루기
             - 객체에 이벤트 핸들러 등록: Click 시에 처리할 핸들러 등록하기
-                - ```luElement.addEventListener(’click’, function(){
+                - ```
+                luElement.addEventListener(’click’, function(){
                     
                         alert(’Click!’)   (←함수를 이벤트 핸들러 라고 함)
                     
@@ -201,7 +207,8 @@
                     ```
                     
             - resize 이벤트 발생 시
-                - ```window.addEventListener(’rezise’, function(){
+                - ```
+                window.addEventListener(’rezise’, function(){
                     
                         alert(window.innerwidth)
                     
