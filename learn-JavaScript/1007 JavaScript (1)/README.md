@@ -111,10 +111,13 @@
                     
                     명령문 …
                     
-                    }```
+                    }
+                    ```
                     
                     - ( ) 안의 값이 true 이면 { } 안의 명령문을 실행
                     - if 예약어, (), {} 세가지로 구성
+
+
                 - ```if ( num < 20) {
                     
                     명령문 …
@@ -123,7 +126,8 @@
                     
                     명령문 …
                     
-                    }```
+                    }
+                    ```
                     
                 - 조건문 && 조건문 : and
                 - 조건문 || 조건문 : or
@@ -133,7 +137,8 @@
                     
                     console.log(i);
                     
-                    }```
+                    }
+                    ```
                     
                     - 시작부분: let i = 0;  // i에 0을 저장
                     - 조건체크: i < 100; // true 이면 {} 를 실행
@@ -152,14 +157,16 @@
                 
                     </script>
                 
-                </body>```
+                </body>
+                ```
                 
         - 파일로 분리시켜서 사용하기
             - ```<body>
                 
                      <script src = “script.js”></script>
                 
-                </body>```
+                </body>
+                ```
                 
         - html 요소 다루기
             - let h1Elements = documents. getElementsByTagNames(’h1’)
@@ -190,11 +197,13 @@
                     
                         alert(’Click!’)   (←함수를 이벤트 핸들러 라고 함)
                     
-                    })```
+                    })
+                    ```
                     
             - resize 이벤트 발생 시
                 - ```window.addEventListener(’rezise’, function(){
                     
                         alert(window.innerwidth)
                     
-                    })```
+                    })
+                    ```
