@@ -20,8 +20,8 @@
           - ```
             if a = 1:
 
-                  print(1) →# block
-                  ```
+                  print(1) # → block
+            ```
 
           - 세미콜론을 사용하지 않는다.
       - 추천 Editor
