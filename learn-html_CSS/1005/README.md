@@ -2,12 +2,6 @@
 
 ---
 
-- 교재
-    
-    [2DAY - HTML의 사본](https://docs.google.com/presentation/d/1Gdg1N2Zlb02Y7DwP8NofCFz21HJ9VgRFm1Y74MuVHB4/edit?usp=sharing)
-    
-    [2DAY - CSS 기초의 사본](https://docs.google.com/presentation/d/10DAZd9jENOU7wpyLc6Yncru0xeLPBZ1PJBlxUEiKvz0/edit?usp=sharing)
-    
 - 과제
     - 퀴즈
         
