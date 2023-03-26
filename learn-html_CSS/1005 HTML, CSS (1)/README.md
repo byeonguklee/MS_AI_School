@@ -41,13 +41,13 @@
                 - javascript: 사용자와 인터랙션 기능 구현
         - html  문서
             
-            <!DOCUTYPE html> → 선언
+            `<!DOCUTYPE html>` → 선언
             
-            <html> </html>
+            `<html> </html>`
             
-            <head> </head> body에 대한 설명(보이지 않음 - <title>은 제외)
+            `<head> </head>` body에 대한 설명(보이지 않음 - <title>은 제외)
             
-            <body> </body> 브라우저의 내용
+            `<body> </body>` 브라우저의 내용
             
             ![Untitled](221005%20HTML,%20CSS%20(1)%202670bda9f43142d39b6a460c62fff340/Untitled%201.png)
             
@@ -59,7 +59,7 @@
             
             ![Untitled](221005%20HTML,%20CSS%20(1)%202670bda9f43142d39b6a460c62fff340/Untitled%203.png)
             
-            - 한줄=요소 ( <H1>hello</h1>)
+            - 한줄=요소 ( `<H1>hello</h1>` )
                 - 테그에 / 없는 것: 시작, / 있는 것: 끝
                 - 속성
                     - a href: 앵커
@@ -67,15 +67,15 @@
             - 중요 포인트
                 - 열면 닫아야 한다.
                 - 중첩해서 사용할 수 있다.
-                - 안닫는 것도 있다. (<img src=””>)
+                - 안닫는 것도 있다. (`<img src=””>`)
             - 문법
                 - 제목: h1 - h6
                     - h1이 가장 큰 제목
                     - h6이 가장 작은 제목
-                - 문단: <p>
-                - 앵커: <a href=”주소 url” target=”_blank”> → 주소로 이동,
+                - 문단: `<p>`
+                - 앵커: `<a href=”주소 url” target=”_blank”>` → 주소로 이동,
                     - target=”_blank”새탭에서 열기
-                - 이미지: <img src=”logo.png” widhth=”10px” height=”10px”>
+                - 이미지: `<img src=”logo.png” widhth=”10px” height=”10px”>`
                     - 닫는 테그 없음
                 - 리스트 표현: ul, ol, li
                     - ul: 글머리 기호로
@@ -100,13 +100,13 @@
                 ![Untitled](221005%20HTML,%20CSS%20(1)%202670bda9f43142d39b6a460c62fff340/Untitled%206.png)
                 
             - 시맨틱 요소: 스타일에 변형을 주지 않고 의미를 담는 요소들, SEO(검색엔진최적화)에 영향을 미침
-                - <div>: 구역
-                - <nav>: 네비게이션 역할(구역화)
-                - <section>
-                - <article>
-                - <header>: 머리글
-                - <footer>
-                - <main>: 주요 내용
+                - `<div>`: 구역
+                - `<nav>`: 네비게이션 역할(구역화)
+                - `<section>`
+                - `<article>`
+                - `<header>`: 머리글
+                - `<footer>`
+                - `<main>`: 주요 내용
         - 웹 표준
             - 웹 표준을 잘 지켜서 작성할 수록 SEO가 잘 됨
                 - [https://www.w3.org/WAI/standards-guidelines/ko](https://www.w3.org/WAI/standards-guidelines/ko)
@@ -127,52 +127,52 @@
         - 선택자
             - 요소 선택자: html 문서 안의 요소를 선택하여 적용할 경우
                 
-                → p {color:red;}
+                → `p {color:red;}`
                 
             - 클래스 선택자: html 요소의 클래스 속성을 이용한 선택
                 
-                → <p **class**=”first”>처음</p>
+                → `<p **class**=”first”>처음</p>`
                 
                     .first {color:red;}
                 
             - 아이디 선택자: html 요소의 아이디 속성을 이용한 선택
                 
-                → <p **id**=”onlyone”>유일한</p>
+                → `<p **id**=”onlyone”>유일한</p>`
                 
-                    #onlyone {color:red;}
+                    `#onlyone {color:red;}`
                 
         - CSS 적용 방법
             - 요소에 속성으로 작성
                 
-                → <p style=”color:red;”>빨간색</p>
+                → `<p style=”color:red;”>빨간색</p>`
                 
-            - <head > <style> ~~ </style> </head>
+            - `<head > <style> ~~ </style> </head>`
             - css 파일을 분리해서 별도로 작성 **>> 가장 많이 사용**
                 
-                → <head>
+                → `<head>
                 
                         <link rel=”stylesheet” href=”style.css”
                 
                     </head>
                 
-                     p {color:red;}
+                     p {color:red;}`
                 
         - 다중 선택자
             - 자손 선택자 div 안에 포함된 모든 p
                 
-                → div p[color: red;}
+                → `div p[color: red;}`
                 
             - 자식 선택자 - div 안에 바로 포함된 p
                 
-                → div > h1 {color:red;}
+                → `div > h1 {color:red;}`
                 
             - 형제 선택자 - 형제 관계를 이용해서 선택
                 
-                → div + h2 {color:red;} (인접 형제 선택자)
+                → `div + h2 {color:red;}` (인접 형제 선택자)
                 
-                - <h1>//<h1>//<h1> ... 의 경우 h1+h1으로 표기하면 첫번째 h1 외의 h1이 모두 표시 됨 (h1의 인접이 계속 중첩되기 때문에)
+                - `<h1>//<h1>//<h1> ...` 의 경우 h1+h1으로 표기하면 첫번째 h1 외의 h1이 모두 표시 됨 (h1의 인접이 계속 중첩되기 때문에)
                 
-                → div ~ h2 {color:red;} (일반 형제 선택자)
+                → `div ~ h2 {color:red;}` (일반 형제 선택자)
                 
                 [CSS 형제 선택자? CSS의 + 및 ~ 기호 사용법 정리 - dasima](https://dasima.xyz/css-%ED%98%95%EC%A0%9C-%EC%84%A0%ED%83%9D%EC%9E%90-%EC%A2%85%EB%A5%98-%EA%B8%B0%ED%98%B8-%EC%A0%95%EB%A6%AC/)
                 
@@ -180,21 +180,21 @@
         - 폰트
             - font-family: 사용하려고 하는 폰트를 값으로 설정 ‘,’를 사용해서 여러 개의 폰트를 나열 가능
                 
-                → p {
+                → `p {
                 
                 font-family: aaa, “Times New Roman”, serief, sans-serief;
                 
-                }
+                }`
                 
             - font-size
                 - px: 모니터의 최소 단위(고정값)
                 - % 부모 요소에 비례한 크기 설정 (상대적)
                 
-                → p {
+                → `p {
                 
                 font-size: 14px; or font-size: 100%;
                 
-                }
+                }`
                 
             - font-weight
                 - bold 두껍게
@@ -202,11 +202,11 @@
                 - 400 normal
                 - 700 bold
                 
-                → p {
+                → `p {
                 
                 font-weight: bold;
                 
-                }
+                }`
                 
             - 웹 폰트 적용
                 - 폰트 사용시 주의 사항
@@ -265,10 +265,9 @@
         
         yes 다른 에디터에서는 사용안될 수 있음
         
-    - [ ]  
 - 공부할 것
     - 시맨틱 테그에 대하여 알아보기 (em도 시맨틱 태그다)
-        - <p>HTML의 강조를 나타내는 <b>strong</b>과 <i>기울기</i>를 나타내는 em요소가 있습니다.</p><hr>
-        - <p>HTML의 강조를 나타내는 <strong>strong</strong>과 <em>기울기</em>를 나타내는 em요소가 있습니다.</p><hr> **→ 시맨틱!**
+        - `<p>HTML의 강조를 나타내는 <b>strong</b>과 <i>기울기</i>를 나타내는 em요소가 있습니다.</p><hr>`
+        - `<p>HTML의 강조를 나타내는 <strong>strong</strong>과 <em>기울기</em>를 나타내는 em요소가 있습니다.</p><hr> **→ 시맨틱!**`
     - 다중선택자
-    - 웹폰트 링크는 <style> 밖에 적용
+    - 웹폰트 링크는 `<style>` 밖에 적용
